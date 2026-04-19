@@ -71,6 +71,8 @@
     "createGenericAgentCoreRuntime": false,
     "agentCoreRegion": null,
     "agentCoreExternalRuntimes": [],
+    "agentCoreVpcId": null,
+    "agentCoreSubnetIds": null,
     "agentCoreGatewayArns": [],
     "researchAgentEnabled": false,
     "researchAgentBraveApiKey": "",
