@@ -87,7 +87,7 @@ export class Agent extends Construct {
         'BedrockAgentLambda',
         {
           runtime: LAMBDA_RUNTIME_NODEJS,
-          entry: './lambda/agent.ts',
+          entry: './lambda/agentSearchTool.ts',
           timeout: Duration.seconds(300),
           environment: {
             SEARCH_API_KEY: searchApiKey ?? '',
